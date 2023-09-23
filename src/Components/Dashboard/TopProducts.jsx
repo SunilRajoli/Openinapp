@@ -20,7 +20,8 @@ function TopProducts() {
             slicedProducts.map((item) => {
                 label.push(item.brand);
                 discount.push(item.discountPercentage);
-            })
+                return item;
+              });
 
             setOptions({
                 label: label,

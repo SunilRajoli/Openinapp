@@ -50,6 +50,7 @@ function BarChart() {
         price.push(item.price);
         stock.push(item.stock);
         title.push(item.title);
+        return item;
       });
 
       setOptions({

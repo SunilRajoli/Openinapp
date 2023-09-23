@@ -94,8 +94,8 @@ const Signin = () => {
                             y2="1024"
                             gradientUnits="userSpaceOnUse"
                         >
-                            <stop stop-color="#4285F4"/>
-                            <stop offset="1" stop-color="#286DE0"/>
+                            <stop stopColor="#4285F4"/>
+                            <stop offset="1" stopColor="#286DE0"/>
                         </linearGradient>
                     </defs>
                 </svg>

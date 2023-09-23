@@ -45,7 +45,7 @@ function BarChart() {
     axios.get("https://dummyjson.com/products")
     .then((response) => {
       const slicedProducts = response.data.products.slice(0, 4);
-      console.log(slicedProducts);
+      
       slicedProducts.map((item) => {
         price.push(item.price);
         stock.push(item.stock);
@@ -105,8 +105,8 @@ function BarChart() {
                     options={options}
                     series={series}
                     type="bar"
-                    height="212px"
-                    width="921px"
+                    height="80%"
+                    width="90%"
                 />
             </div>
         </div>
